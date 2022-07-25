@@ -1,0 +1,58 @@
+body header {
+    text-align: center;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    background: rgb(59,110,196);
+    background: linear-gradient(90deg, rgba(59,110,196,1) 0%, rgba(35,5,85,1) 100%);
+    padding: 15px;
+}
+
+
+body aside {
+    display:block;
+}
+
+.userSearchArea {
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin:5px;
+}
+
+#searchText {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#userSearch {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+#userButton {
+    width: 100%;
+}
+
+.historyButtons {
+    text-align: center;
+}
+
+#resultsDisplay {
+    padding: 5px;
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+}
+
+#fiveDayForecast {
+    padding: 5px;
+    margin: 10px;
+}
+
+.forecastCard {
+    margin: auto;
+}
